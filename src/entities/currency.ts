@@ -14,9 +14,19 @@ export class Currency {
   public readonly name?: string
 
   /**
-   * The only instance of the base class `Currency`.
+   * The ETHER instance of the base class `Currency`.
    */
   public static readonly ETHER: Currency = new Currency(18, 'ETH', 'Ether')
+
+  /**
+   * The HARMONY instance of the base class `Currency`.
+   */
+  public static readonly HARMONY: Currency = new Currency(18, 'ONE', 'Harmony')
+
+  /**
+   * The BINANCE_COIN instance of the base class `Currency`.
+   */
+  public static readonly BINANCE_COIN: Currency = new Currency(18, 'BNB', 'Binance Coin')
 
   /**
    * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
@@ -34,4 +44,8 @@ export class Currency {
 }
 
 const ETHER = Currency.ETHER
-export { ETHER }
+const HARMONY = Currency.HARMONY
+const BINANCE_COIN = Currency.BINANCE_COIN
+const DEFAULT_CURRENCIES = [ETHER, HARMONY, BINANCE_COIN]
+
+export { ETHER, HARMONY, BINANCE_COIN, DEFAULT_CURRENCIES }

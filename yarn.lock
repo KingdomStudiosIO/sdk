@@ -1500,10 +1500,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@viperswap/core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@viperswap/core/-/core-1.0.1.tgz#a762821e1bcd0d0911d571951dafbd355d0e914d"
-  integrity sha512-n3DtgDhWNJFkKsFmdUneEfjVKK32I6af97ciJ1BgJqZS4b4pdaJvr1XYyLpvxEbNtc6By5lRsG7PFPuHh0if9g==
+"@viperswap/core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@viperswap/core/-/core-1.0.2.tgz#5c64ef2f64309e4e64673a089568b5f0536ebb81"
+  integrity sha512-AVQcusMorIAz5W0H8gfEuUE0INa630Sa/Y6ydE+alsb2iE04JPBXE77Ps2qmhQLaCPjrBzTDtzJSzUHiKdAbTw==
 
 abab@^2.0.0:
   version "2.0.5"
@@ -1844,9 +1844,9 @@ babel-plugin-macros@^2.6.1:
     resolve "^1.12.0"
 
 babel-plugin-polyfill-corejs2@^0.1.4:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.1.5.tgz#8fc4779965311393594a1b9ad3adefab3860c8fe"
-  integrity sha512-5IzdFIjYWqlOFVr/hMYUpc+5fbfuvJTAISwIY58jhH++ZtawtNlcJnxAixlk8ahVwHCz1ipW/kpXYliEBp66wg==
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.1.6.tgz#947a1227efa1a14ce09ac5fafc66ce8e039071e2"
+  integrity sha512-1PfghLDuzX5lFY6XXO0hrfxwYf0LD9YajMWeQBGNaPNLQ35paV7YB4hlFW+HfwFS5kcp4rtPI/237xLfQ1ah8A==
   dependencies:
     "@babel/compat-data" "^7.13.0"
     "@babel/helper-define-polyfill-provider" "^0.1.2"

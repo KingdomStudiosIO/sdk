@@ -17,13 +17,13 @@ describe('Pair', () => {
 
   describe('#getAddress', () => {
     it('returns the correct address for Ethereum Mainnet', () => {
-      expect(Pair.getAddress(USDC, DAI)).toEqual('0x109DEE027ba737296f6fabfa11Afd7a9Cc3320B5')
+      expect(Pair.getAddress(USDC, DAI)).toEqual('0x428e7a3E647be80b1e5a6025c08c01c2Fb046F38')
     })
   })
 
   describe('#getAddress', () => {
     it('returns the correct address for Harmony Testnet', () => {
-      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0xDFAF9B5Fa04b81730E2b12e3CaE20a9cF589Cd4D')
+      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0x2416658Ee4CBeB95994aE927A6447E64537F2402')
     })
   })
 

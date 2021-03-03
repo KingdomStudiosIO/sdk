@@ -23,7 +23,7 @@ describe('Pair', () => {
 
   describe('#getAddress', () => {
     it('returns the correct address for Harmony Testnet', () => {
-      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0x2416658Ee4CBeB95994aE927A6447E64537F2402')
+      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0x9f8809C709f52c159cBB6031D6819381C3f6CCa9')
     })
   })
 

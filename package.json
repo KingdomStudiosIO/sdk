@@ -1,14 +1,14 @@
 {
-  "name": "@viperswap/sdk",
+  "name": "@venomswap/sdk",
   "license": "MIT",
-  "version": "1.0.5",
-  "description": "🛠 An SDK for building applications on top of Viperswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of VenomSwap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/ViperProtocol/viperswap-sdk.git",
+  "repository": "https://github.com/VenomProtocol/venomswap-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@viperswap/core": "^1.0.3",
+    "@venomswap/core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",

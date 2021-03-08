@@ -4,8 +4,8 @@ describe('Pair', () => {
   const USDC = new Token(ChainId.MAINNET, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 18, 'USDC', 'USD Coin')
   const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18, 'DAI', 'DAI Stablecoin')
 
-  const HARMONY_TESTNET_WONE = new Token(ChainId.HARMONY_TESTNET, '0x7466d7d0C21Fa05F32F5a0Fa27e12bdC06348Ce2', 18, 'WONE', 'Wrapped ONE')
-  const HARMONY_TESTNET_BUSD = new Token(ChainId.HARMONY_TESTNET, '0x0E80905676226159cC3FF62B1876C907C91F7395', 18, 'BUSD', 'Binance USD')
+  const HARMONY_MAINNET_WONE = new Token(ChainId.HARMONY_MAINNET, '0xcF664087a5bB0237a0BAd6742852ec6c8d69A27a', 18, 'WONE', 'Wrapped ONE')
+  const HARMONY_MAINNET_BUSD = new Token(ChainId.HARMONY_MAINNET, '0xE176EBE47d621b984a73036B9DA5d834411ef734', 18, 'BUSD', 'Binance USD')
 
   describe('constructor', () => {
     it('cannot be used for tokens on different chains', () => {
@@ -19,8 +19,8 @@ describe('Pair', () => {
     it('returns the correct address for Ethereum Mainnet', () => {
       expect(Pair.getAddress(USDC, DAI)).toEqual('0x2055f109930A174Ec3F34CE20F42C7337e743250')
     })
-    it('returns the correct address for Harmony Testnet', () => {
-      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0xe1879B404C19f45adC4B23C92911198605B579cb')
+    it('returns the correct address for Harmony Mainnet', () => {
+      expect(Pair.getAddress(HARMONY_MAINNET_WONE, HARMONY_MAINNET_BUSD)).toEqual('0x4Af68AD33Eb03960CE146D4EcFBA8f583D4A7AD8')
     })
   })
 

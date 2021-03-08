@@ -1410,9 +1410,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "14.14.31"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
-  integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
+  version "14.14.32"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.32.tgz#90c5c4a8d72bbbfe53033f122341343249183448"
+  integrity sha512-/Ctrftx/zp4m8JOujM5ZhwzlWLx22nbQJiVqz8/zE15gOeEW+uly3FSX4fGFpcfEvFzXcMCJwq9lGVWgyARXhg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -2110,9 +2110,9 @@ camelcase@^5.0.0, camelcase@^5.3.1:
   integrity sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==
 
 caniuse-lite@^1.0.30001181:
-  version "1.0.30001196"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001196.tgz#00518a2044b1abf3e0df31fadbe5ed90b63f4e64"
-  integrity sha512-CPvObjD3ovWrNBaXlAIGWmg2gQQuJ5YhuciUOjPRox6hIQttu8O+b51dx6VIpIY9ESd2d0Vac1RKpICdG4rGUg==
+  version "1.0.30001197"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001197.tgz#47ad15b977d2f32b3ec2fe2b087e0c50443771db"
+  integrity sha512-8aE+sqBqtXz4G8g35Eg/XEaFr2N7rd/VQ6eABGBmNtcB8cN6qNJhMi6oSFy4UWWZgqgL3filHT8Nha4meu3tsw==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6312,9 +6312,9 @@ tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 tsutils@^3.17.1:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.20.0.tgz#ea03ea45462e146b53d70ce0893de453ff24f698"
-  integrity sha512-RYbuQuvkhuqVeXweWT3tJLKOEJ/UUw9GjNEZGWdrLLlM+611o1gwLHBpxoFJKKl25fLprp2eVthtKs5JOrNeXg==
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.21.0.tgz#b48717d394cea6c1e096983eed58e9d61715b623"
+  integrity sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==
   dependencies:
     tslib "^1.8.1"
 

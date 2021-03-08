@@ -19,11 +19,8 @@ describe('Pair', () => {
     it('returns the correct address for Ethereum Mainnet', () => {
       expect(Pair.getAddress(USDC, DAI)).toEqual('0x2055f109930A174Ec3F34CE20F42C7337e743250')
     })
-  })
-
-  describe('#getAddress', () => {
     it('returns the correct address for Harmony Testnet', () => {
-      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0x21C789ED57B2d62241B69C8179C4C7B06B4B63C2')
+      expect(Pair.getAddress(HARMONY_TESTNET_WONE, HARMONY_TESTNET_BUSD)).toEqual('0xe1879B404C19f45adC4B23C92911198605B579cb')
     })
   })
 

@@ -1,14 +1,14 @@
 {
-  "name": "@venomswap/sdk",
+  "name": "@defikingdoms/sdk",
   "license": "MIT",
   "version": "1.0.5",
-  "description": "🛠 An SDK for building applications on top of VenomSwap.",
+  "description": "🛠 An SDK for building applications on top of DefiKingdoms.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/VenomProtocol/venomswap-sdk.git",
+  "repository": "https://github.com/DefiKingdoms/defikingdoms-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -22,7 +22,6 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@venomswap/core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",

@@ -55,8 +55,8 @@ export class Pair {
       tokenAmounts[0].token.chainId,
       Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token),
       18,
-      'VENOM-LP',
-      'Venom LP Token'
+      'JEWEL-LP',
+      'JEWEL LP Token'
     )
     this.tokenAmounts = tokenAmounts as [TokenAmount, TokenAmount]
   }

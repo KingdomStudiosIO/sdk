@@ -35,7 +35,7 @@ export abstract class Fetcher {
   public static async fetchTokenData(
     chainId: ChainId,
     address: string,
-    provider = getDefaultProvider(getNetwork(chainId)),
+    provider: any = getDefaultProvider(getNetwork(chainId)),
     symbol?: string,
     name?: string
   ): Promise<Token> {
@@ -64,7 +64,7 @@ export abstract class Fetcher {
   public static async fetchPairData(
     tokenA: Token,
     tokenB: Token,
-    provider = getDefaultProvider(getNetwork(tokenA.chainId))
+    provider: any = getDefaultProvider(getNetwork(tokenA.chainId))
   ): Promise<Pair> {
     invariant(tokenA.chainId === tokenB.chainId, 'CHAIN_ID')
     const address = Pair.getAddress(tokenA, tokenB)

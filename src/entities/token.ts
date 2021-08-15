@@ -119,5 +119,12 @@ export const WETH = {
     18,
     'WONE',
     'Wrapped ONE'
+  ),
+  [ChainId.HARDHAT]: new Token(
+    ChainId.HARDHAT,
+    '0xcee1f9fa671eA7a637fC1B4855DF0A125C400015',
+    18,
+    'WONE',
+    'Wrapped ONE'
   )
 }

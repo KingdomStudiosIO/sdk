@@ -1,5 +1,5 @@
 {
-  "name": "@defikingdoms/sdk",
+  "name": "@DefiKingdoms/sdk",
   "license": "MIT",
   "version": "1.0.5",
   "description": "🛠 An SDK for building applications on top of DefiKingdoms.",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/DefiKingdoms/defikingdoms-sdk.git",
+  "repository": "https://github.com/DefiKingdoms/sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -55,5 +55,8 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+}
 }
